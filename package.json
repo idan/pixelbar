@@ -1,9 +1,9 @@
 {
-  "name": "pixelprogress",
+  "name": "pixelbar",
   "version": "1.0.0",
   "description": "Generate precise progress bars in terminals with the power of unicode",
   "main": "./dist/index.js",
-  "repository": "https://github.com/idan/pixelprogress",
+  "repository": "https://github.com/idan/pixelbar",
   "author": "Idan Gazit <idan@gazit.me>",
   "license": "MIT",
   "devDependencies": {
