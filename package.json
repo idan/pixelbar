@@ -1,0 +1,33 @@
+{
+  "name": "pixelprogress",
+  "version": "1.0.0",
+  "description": "Generate precise progress bars in terminals with the power of unicode",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/idan/pixelprogress",
+  "author": "Idan Gazit <idan@gazit.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.2.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^20.0.4",
+    "np": "^2.16.0"
+  },
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "d3-scale": "^1.0.6"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepublish": "yarn run build",
+    "lint": "eslint src",
+    "test": "yarn lint && jest"
+  }
+}
